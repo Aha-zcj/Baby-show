@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomActionBarTheme"
+           parent="@style/Theme.Sherlock.Light">
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+           parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="backgroundStacked">@drawable/actionbar_background</item>
+    </style>
+</resources>

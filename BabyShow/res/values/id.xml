@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公用 -->
+    <item type="id" name="background" />
+    <item type="id" name="back_btn" />
+    <item type="id" name="title" />
+    <item type="id" name="listview" />
+    <item type="id" name="gridview" />
+    <item type="id" name="viewpager" />
+    
+    
+    <!-- baby项目使用 -->
+    <item type="id" name="profile_icon_iv"/>
+    
+</resources>

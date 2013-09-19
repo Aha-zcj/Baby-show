@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BabyShow</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <!-- Image View 的描述 -->
+    <string name="profile_icon_desc">个人头像</string>
+    <string name="tab_title_home">首页</string>
+    <string name="tab_title_photos">照片库</string>
+    <string name="tab_title_personal">个人</string>
+
+</resources>

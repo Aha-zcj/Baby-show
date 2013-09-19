@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_titles">
+        <item >@string/tab_title_home</item>
+        <item >@string/tab_title_photos</item>
+        <item >@string/tab_title_personal</item>
+    </string-array>
+    
+</resources>
