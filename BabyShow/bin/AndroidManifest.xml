@@ -10,7 +10,6 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/CustomActionBarTheme" 
         android:name="com.babyshow.application.BabyShowApplication">
         <activity
             android:name="com.babyshow.activity.MainActivity"

@@ -21,9 +21,12 @@
     
     <!-- ActionBar title text -->
     <style name="BabyActionBar" parent="@style/Theme.Sherlock.Light">
-        
+        <item name="actionBarStyle">@style/BabyActionBarStyle</item>
     </style>
     
+    <style name="BabyActionBarStyle" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="background">@drawable/actionbar_background</item>
+    </style>
     
     <style name="MyActionBarTitleText"
            parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
