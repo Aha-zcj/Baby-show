@@ -10,15 +10,21 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:theme="@style/Theme.Baby"
         android:name="com.babyshow.application.BabyShowApplication">
-        <activity
-            android:name="com.babyshow.activity.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Baby" >
+        <activity 
+            android:name="com.babyshow.activity.LoginActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.babyshow.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Baby" >
+            
         </activity>
     </application>
 

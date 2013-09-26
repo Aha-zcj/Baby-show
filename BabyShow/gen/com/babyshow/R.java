@@ -918,33 +918,42 @@ containing a value of this type.
         public static final int abs__textfield_searchview_right_holo_light=0x7f020074;
         public static final int abs__toast_frame=0x7f020075;
         public static final int actionbar_background=0x7f020076;
-        public static final int btn_cab_done_baby=0x7f020077;
-        public static final int btn_cab_done_default_baby=0x7f020078;
-        public static final int btn_cab_done_focused_baby=0x7f020079;
-        public static final int btn_cab_done_pressed_baby=0x7f02007a;
-        public static final int cab_background_bottom_baby=0x7f02007b;
-        public static final int cab_background_top_baby=0x7f02007c;
-        public static final int ic_launcher=0x7f02007d;
-        public static final int list_focused_baby=0x7f02007e;
-        public static final int menu_dropdown_panel_baby=0x7f02007f;
-        public static final int pressed_background_baby=0x7f020080;
-        public static final int progress_bg_baby=0x7f020081;
-        public static final int progress_horizontal_baby=0x7f020082;
-        public static final int progress_primary_baby=0x7f020083;
-        public static final int progress_secondary_baby=0x7f020084;
-        public static final int selectable_background_baby=0x7f020085;
-        public static final int spinner_ab_default_baby=0x7f020086;
-        public static final int spinner_ab_disabled_baby=0x7f020087;
-        public static final int spinner_ab_focused_baby=0x7f020088;
-        public static final int spinner_ab_pressed_baby=0x7f020089;
-        public static final int spinner_background_ab_baby=0x7f02008a;
-        public static final int tab_indicator_ab_baby=0x7f02008b;
-        public static final int tab_selected_baby=0x7f02008c;
-        public static final int tab_selected_focused_baby=0x7f02008d;
-        public static final int tab_selected_pressed_baby=0x7f02008e;
-        public static final int tab_unselected_baby=0x7f02008f;
-        public static final int tab_unselected_focused_baby=0x7f020090;
-        public static final int tab_unselected_pressed_baby=0x7f020091;
+        public static final int bg_login=0x7f020077;
+        public static final int btn_cab_done_baby=0x7f020078;
+        public static final int btn_cab_done_default_baby=0x7f020079;
+        public static final int btn_cab_done_focused_baby=0x7f02007a;
+        public static final int btn_cab_done_pressed_baby=0x7f02007b;
+        public static final int btn_login=0x7f02007c;
+        public static final int btn_login_pressed=0x7f02007d;
+        public static final int btn_login_unpressed=0x7f02007e;
+        public static final int btn_register=0x7f02007f;
+        public static final int btn_register_pressed=0x7f020080;
+        public static final int btn_register_unpressed=0x7f020081;
+        public static final int cab_background_bottom_baby=0x7f020082;
+        public static final int cab_background_top_baby=0x7f020083;
+        public static final int et_login=0x7f020084;
+        public static final int ic_launcher=0x7f020085;
+        public static final int ic_logo=0x7f020086;
+        public static final int list_focused_baby=0x7f020087;
+        public static final int menu_dropdown_panel_baby=0x7f020088;
+        public static final int pressed_background_baby=0x7f020089;
+        public static final int progress_bg_baby=0x7f02008a;
+        public static final int progress_horizontal_baby=0x7f02008b;
+        public static final int progress_primary_baby=0x7f02008c;
+        public static final int progress_secondary_baby=0x7f02008d;
+        public static final int selectable_background_baby=0x7f02008e;
+        public static final int spinner_ab_default_baby=0x7f02008f;
+        public static final int spinner_ab_disabled_baby=0x7f020090;
+        public static final int spinner_ab_focused_baby=0x7f020091;
+        public static final int spinner_ab_pressed_baby=0x7f020092;
+        public static final int spinner_background_ab_baby=0x7f020093;
+        public static final int tab_indicator_ab_baby=0x7f020094;
+        public static final int tab_selected_baby=0x7f020095;
+        public static final int tab_selected_focused_baby=0x7f020096;
+        public static final int tab_selected_pressed_baby=0x7f020097;
+        public static final int tab_unselected_baby=0x7f020098;
+        public static final int tab_unselected_focused_baby=0x7f020099;
+        public static final int tab_unselected_pressed_baby=0x7f02009a;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040027;
@@ -986,13 +995,17 @@ containing a value of this type.
         public static final int abs__textButton=0x7f04001a;
         public static final int abs__title=0x7f040022;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f04003a;
+        public static final int action_settings=0x7f04003f;
         public static final int back_btn=0x7f040011;
         /**  公用 
          */
         public static final int background=0x7f040010;
+        public static final int btn_login=0x7f04003c;
+        public static final int btn_register=0x7f04003d;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f04002d;
+        public static final int et_login_id=0x7f04003a;
+        public static final int et_login_password=0x7f04003b;
         public static final int gridview=0x7f040014;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
@@ -1007,6 +1020,7 @@ containing a value of this type.
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
         public static final int title=0x7f040012;
+        public static final int tv_forget_password=0x7f04003e;
         public static final int useLogo=0x7f040004;
         public static final int viewpager=0x7f040015;
         public static final int wrap_content=0x7f040000;
@@ -1037,14 +1051,15 @@ containing a value of this type.
         public static final int abs__search_view=0x7f030013;
         public static final int abs__simple_dropdown_hint=0x7f030014;
         public static final int activity_framwork=0x7f030015;
-        public static final int fragment_home=0x7f030016;
-        public static final int fragment_personal=0x7f030017;
-        public static final int fragment_photos=0x7f030018;
-        public static final int fragment_setting=0x7f030019;
-        public static final int home_personal_info_component=0x7f03001a;
-        public static final int home_talk_list_item=0x7f03001b;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001c;
-        public static final int sherlock_spinner_item=0x7f03001d;
+        public static final int activity_login=0x7f030016;
+        public static final int fragment_home=0x7f030017;
+        public static final int fragment_personal=0x7f030018;
+        public static final int fragment_photos=0x7f030019;
+        public static final int fragment_setting=0x7f03001a;
+        public static final int home_personal_info_component=0x7f03001b;
+        public static final int home_talk_list_item=0x7f03001c;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001d;
+        public static final int sherlock_spinner_item=0x7f03001e;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1091,9 +1106,14 @@ containing a value of this type.
         public static final int abs__shareactionprovider_share_with_application=0x7f090007;
         public static final int action_settings=0x7f09000e;
         public static final int app_name=0x7f09000d;
+        public static final int forget_password=0x7f090017;
+        public static final int hint_login_id=0x7f090013;
+        public static final int hint_login_password=0x7f090014;
+        public static final int login=0x7f090015;
         /**  Image View 的描述 
          */
         public static final int profile_icon_desc=0x7f09000f;
+        public static final int register=0x7f090016;
         public static final int tab_title_home=0x7f090010;
         public static final int tab_title_personal=0x7f090012;
         public static final int tab_title_photos=0x7f090011;
