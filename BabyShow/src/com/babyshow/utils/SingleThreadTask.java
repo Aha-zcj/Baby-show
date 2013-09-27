@@ -85,6 +85,10 @@ public abstract class SingleThreadTask {
 		}
 	}
 	
+	public Thread getThread() {
+		return mThread;
+	}
+	
 	/**
 	 * 必须实现的方法，具体执行任务
 	 * @param params
