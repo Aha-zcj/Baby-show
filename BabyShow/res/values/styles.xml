@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -19,23 +19,20 @@
     
     
     
-    <!-- ActionBar title text -->
+    <!-- ActionBar -->
     <style name="BabyActionBar" parent="@style/Theme.Sherlock.Light">
-        
+        <item name="actionBarTabStyle">@style/BabyActionBarTabStyle</item>
+        <!-- <item name="actionBarTabBarStyle">@style/BabyActionBarStyle</item> -->
     </style>
     
-    
-    <style name="MyActionBarTitleText"
-           parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/actionbar_text</item>
-        <!-- The textColor property is backward compatible with the Support Library -->
+    <!-- ActionBar title -->
+    <style name="BabyActionBarStyle" parent="@style/Widget.Sherlock.Light.ActionBar.TabBar">
+        <item name="android:background">#000000</item>
     </style>
 
-    <!-- ActionBar tabs text -->
-    <style name="MyActionBarTabText"
-           parent="@style/Widget.Sherlock.ActionBar.TabText">
-        <item name="android:textColor">@color/actionbar_text</item>
-        <!-- The textColor property is backward compatible with the Support Library -->
+    <!-- ActionBar tabs -->
+    <style name="BabyActionBarTabStyle" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+        <item name="android:background">#0099CC</item>
     </style>
     
 

@@ -11,5 +11,6 @@
     
     <!-- baby项目使用 -->
     <item type="id" name="profile_icon_iv"/>
-    
+    <item type="id" name="baby_name_tv"/>
+    <item type="id" name="baby_age_tv"/>    
 </resources>

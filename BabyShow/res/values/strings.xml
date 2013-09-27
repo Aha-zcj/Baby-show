@@ -3,6 +3,8 @@
 
     <string name="app_name">BabyShow</string>
     <string name="action_settings">Settings</string>
+    <string name="baby_name">Baby</string>
+    <string name="baby_age_format">%d岁</string>
     
     
     <!-- Image View 的描述 -->

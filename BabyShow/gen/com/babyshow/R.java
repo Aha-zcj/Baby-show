@@ -912,60 +912,63 @@ containing a value of this type.
         public static final int abs__toast_frame=0x7f02006f;
         public static final int actionbar_background=0x7f020070;
         public static final int ic_launcher=0x7f020071;
+        public static final int profile_icon_bg=0x7f020072;
     }
     public static final class id {
-        public static final int abs__action_bar=0x7f040027;
-        public static final int abs__action_bar_container=0x7f040026;
-        public static final int abs__action_bar_subtitle=0x7f040018;
-        public static final int abs__action_bar_title=0x7f040017;
-        public static final int abs__action_context_bar=0x7f040028;
+        public static final int abs__action_bar=0x7f040029;
+        public static final int abs__action_bar_container=0x7f040028;
+        public static final int abs__action_bar_subtitle=0x7f04001a;
+        public static final int abs__action_bar_title=0x7f040019;
+        public static final int abs__action_context_bar=0x7f04002a;
         public static final int abs__action_menu_divider=0x7f04000c;
         public static final int abs__action_menu_presenter=0x7f04000d;
-        public static final int abs__action_mode_bar=0x7f04002c;
-        public static final int abs__action_mode_bar_stub=0x7f04002b;
-        public static final int abs__action_mode_close_button=0x7f04001b;
-        public static final int abs__activity_chooser_view_content=0x7f04001c;
-        public static final int abs__checkbox=0x7f040023;
-        public static final int abs__content=0x7f040029;
-        public static final int abs__default_activity_button=0x7f04001f;
-        public static final int abs__expand_activities_button=0x7f04001d;
+        public static final int abs__action_mode_bar=0x7f04002e;
+        public static final int abs__action_mode_bar_stub=0x7f04002d;
+        public static final int abs__action_mode_close_button=0x7f04001d;
+        public static final int abs__activity_chooser_view_content=0x7f04001e;
+        public static final int abs__checkbox=0x7f040025;
+        public static final int abs__content=0x7f04002b;
+        public static final int abs__default_activity_button=0x7f040021;
+        public static final int abs__expand_activities_button=0x7f04001f;
         public static final int abs__home=0x7f04000a;
-        public static final int abs__icon=0x7f040021;
-        public static final int abs__image=0x7f04001e;
-        public static final int abs__imageButton=0x7f040019;
-        public static final int abs__list_item=0x7f040020;
+        public static final int abs__icon=0x7f040023;
+        public static final int abs__image=0x7f040020;
+        public static final int abs__imageButton=0x7f04001b;
+        public static final int abs__list_item=0x7f040022;
         public static final int abs__progress_circular=0x7f04000e;
         public static final int abs__progress_horizontal=0x7f04000f;
-        public static final int abs__radio=0x7f040024;
-        public static final int abs__search_badge=0x7f04002f;
-        public static final int abs__search_bar=0x7f04002e;
-        public static final int abs__search_button=0x7f040030;
-        public static final int abs__search_close_btn=0x7f040035;
-        public static final int abs__search_edit_frame=0x7f040031;
-        public static final int abs__search_go_btn=0x7f040037;
-        public static final int abs__search_mag_icon=0x7f040032;
-        public static final int abs__search_plate=0x7f040033;
-        public static final int abs__search_src_text=0x7f040034;
-        public static final int abs__search_voice_btn=0x7f040038;
-        public static final int abs__shortcut=0x7f040025;
-        public static final int abs__split_action_bar=0x7f04002a;
-        public static final int abs__submit_area=0x7f040036;
-        public static final int abs__textButton=0x7f04001a;
-        public static final int abs__title=0x7f040022;
+        public static final int abs__radio=0x7f040026;
+        public static final int abs__search_badge=0x7f040031;
+        public static final int abs__search_bar=0x7f040030;
+        public static final int abs__search_button=0x7f040032;
+        public static final int abs__search_close_btn=0x7f040037;
+        public static final int abs__search_edit_frame=0x7f040033;
+        public static final int abs__search_go_btn=0x7f040039;
+        public static final int abs__search_mag_icon=0x7f040034;
+        public static final int abs__search_plate=0x7f040035;
+        public static final int abs__search_src_text=0x7f040036;
+        public static final int abs__search_voice_btn=0x7f04003a;
+        public static final int abs__shortcut=0x7f040027;
+        public static final int abs__split_action_bar=0x7f04002c;
+        public static final int abs__submit_area=0x7f040038;
+        public static final int abs__textButton=0x7f04001c;
+        public static final int abs__title=0x7f040024;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f04003a;
+        public static final int action_settings=0x7f04003c;
+        public static final int baby_age_tv=0x7f040018;
+        public static final int baby_name_tv=0x7f040017;
         public static final int back_btn=0x7f040011;
         /**  公用 
          */
         public static final int background=0x7f040010;
         public static final int disableHome=0x7f040009;
-        public static final int edit_query=0x7f04002d;
+        public static final int edit_query=0x7f04002f;
         public static final int gridview=0x7f040014;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
         public static final int listview=0x7f040013;
         public static final int normal=0x7f040001;
-        public static final int pager=0x7f040039;
+        public static final int pager=0x7f04003b;
         /**  baby项目使用 
          */
         public static final int profile_icon_iv=0x7f040016;
@@ -1058,12 +1061,14 @@ containing a value of this type.
         public static final int abs__shareactionprovider_share_with_application=0x7f090007;
         public static final int action_settings=0x7f09000e;
         public static final int app_name=0x7f09000d;
+        public static final int baby_age_format=0x7f090010;
+        public static final int baby_name=0x7f09000f;
         /**  Image View 的描述 
          */
-        public static final int profile_icon_desc=0x7f09000f;
-        public static final int tab_title_home=0x7f090010;
-        public static final int tab_title_personal=0x7f090012;
-        public static final int tab_title_photos=0x7f090011;
+        public static final int profile_icon_desc=0x7f090011;
+        public static final int tab_title_home=0x7f090012;
+        public static final int tab_title_personal=0x7f090014;
+        public static final int tab_title_photos=0x7f090013;
     }
     public static final class style {
         /** 
@@ -1081,20 +1086,19 @@ containing a value of this type.
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0a005a;
-        /**  ActionBar title text 
+        /**  ActionBar 
          */
         public static final int BabyActionBar=0x7f0a005b;
+        /**  ActionBar title 
+         */
+        public static final int BabyActionBarStyle=0x7f0a005c;
+        /**  ActionBar tabs 
+         */
+        public static final int BabyActionBarTabStyle=0x7f0a005d;
         public static final int CustomActionBarTheme=0x7f0a005e;
         /**  ActionBar styles 
          */
         public static final int MyActionBar=0x7f0a005f;
-        /**  ActionBar tabs text 
- The textColor property is backward compatible with the Support Library 
-         */
-        public static final int MyActionBarTabText=0x7f0a005d;
-        /**  The textColor property is backward compatible with the Support Library 
-         */
-        public static final int MyActionBarTitleText=0x7f0a005c;
         public static final int Sherlock___TextAppearance_Small=0x7f0a0046;
         public static final int Sherlock___Theme=0x7f0a0051;
         public static final int Sherlock___Theme_DarkActionBar=0x7f0a0053;

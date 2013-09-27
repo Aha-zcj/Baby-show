@@ -2,15 +2,41 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="@android:color/darker_gray" >
+    android:background="@android:color/black" >
 
     <ImageView
         android:id="@id/profile_icon_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/profile_icon_desc"
+        android:background="@drawable/ic_launcher"
+        android:src="@drawable/profile_icon_bg" />
+    
+    
+    <TextView
+        android:id="@id/baby_name_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:padding="20dp"
-        android:src="@drawable/ic_launcher"
-        android:contentDescription="@string/profile_icon_desc" />
+        android:layout_below="@id/profile_icon_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:text="@string/baby_name"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@id/baby_age_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baby_name_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        android:text="@string/baby_age_format"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
