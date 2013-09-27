@@ -3,7 +3,12 @@
 
 *.apk
 
-*.dex
-
 *.cache
 
+BabyShow/bin/*
+
+BabyShow/gen/*
+
+actionbarsherlock/bin/*
+
+actionbarsherlock/gen/*
