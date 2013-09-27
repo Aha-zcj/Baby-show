@@ -1,38 +1,61 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
-    <!--
-        Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
-    -->
-    <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
-    </style>
+    <style name="Theme.Baby" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_baby</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Baby</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Baby</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Baby</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Baby</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Baby</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_baby</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_baby</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Baby</item>
 
-    <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
-    </style>
-    
-    
-    
-    <!-- ActionBar -->
-    <style name="BabyActionBar" parent="@style/Theme.Sherlock.Light">
-        <item name="actionBarTabStyle">@style/BabyActionBarTabStyle</item>
-        <!-- <item name="actionBarTabBarStyle">@style/BabyActionBarStyle</item> -->
-    </style>
-    
-    <!-- ActionBar title -->
-    <style name="BabyActionBarStyle" parent="@style/Widget.Sherlock.Light.ActionBar.TabBar">
-        <item name="android:background">#000000</item>
+        
     </style>
 
-    <!-- ActionBar tabs -->
-    <style name="BabyActionBarTabStyle" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
-        <item name="android:background">#0099CC</item>
+    <style name="ActionBar.Solid.Baby" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_baby</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_baby</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_baby</item>
+        <item name="progressBarStyle">@style/ProgressBar.Baby</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Baby" parent="@style/Widget.Sherlock.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_baby</item>
+        <item name="progressBarStyle">@style/ProgressBar.Baby</item>
+    </style>
+	
+    <style name="PopupMenu.Baby" parent="@style/Widget.Sherlock.Light.ListPopupWindow">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_baby</item>	
+    </style>
+	
+    <style name="DropDownListView.Baby" parent="@style/Widget.Sherlock.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_baby</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Baby" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_baby</item>
+    </style>
+	
+    <style name="DropDownNav.Baby" parent="@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_baby</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_baby</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_baby</item>
+    </style>
+    
+    <style name="ProgressBar.Baby" parent="@style/Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_baby</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Baby" parent="@style/Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_baby</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Baby.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.Baby</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Baby</item>
     </style>
     
 

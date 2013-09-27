@@ -7,30 +7,3 @@
 
 *.cache
 
-BabyShow/bin/BabyShow.apk
-
-BabyShow/bin/BabyShow.apk
-
-BabyShow/bin/R.txt
-
-*.dex
-
-*.dex
-
-BabyShow/bin/classes/com/actionbarsherlock/R$id.class
-
-*.class
-
-BabyShow/bin/resources.ap_
-
-BabyShow/gen/com/actionbarsherlock/R.java
-
-BabyShow/gen/com/babyshow/R.java
-
-*.class
-
-BabyShow/bin/classes/com/babyshow/R$id.class
-
-BabyShow/bin/classes/com/babyshow/R$integer.class
-
-BabyShow/bin/classes/com/babyshow/R$layout.class

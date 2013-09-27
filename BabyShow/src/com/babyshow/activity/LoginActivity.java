@@ -1,6 +1,8 @@
 package com.babyshow.activity;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -55,7 +57,8 @@ public class LoginActivity extends Activity{
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				
+				Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+				startActivity(intent);
 			}
 		});
 		//TextView-"忘记密码？"
