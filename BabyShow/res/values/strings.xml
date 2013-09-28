@@ -17,5 +17,9 @@
     <string name="login">登陆</string>
     <string name="register">注册</string>
     <string name="forget_password">忘记密码 ?</string>
+    <string name="toast_validate_fail">验证失败</string>
+    <string name="toast_input_email">请输入账号</string>
+    <string name="toast_input_password">请输入密码</string>
+    <string name="http_do_login">http://www.qebaby.com/login/dologin</string>
 
 </resources>

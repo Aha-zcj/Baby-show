@@ -12,7 +12,7 @@
         android:src="@drawable/ic_logo" />
 
     <EditText
-        android:id="@+id/et_login_id"
+        android:id="@+id/et_email"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -25,7 +25,7 @@
     </EditText>
 
     <EditText
-        android:id="@+id/et_login_password"
+        android:id="@+id/et_password"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
