@@ -5,10 +5,11 @@
 
 *.cache
 
-BabyShow/bin/*
+BabyShow/bin
 
-BabyShow/gen/*
+BabyShow/gen
 
-actionbarsherlock/bin/*
+actionbarsherlock/bin
 
-actionbarsherlock/gen/*
+actionbarsherlock/gen
+
