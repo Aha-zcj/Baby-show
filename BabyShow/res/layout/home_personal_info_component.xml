@@ -11,9 +11,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:contentDescription="@string/profile_icon_desc"
-        android:background="@drawable/ic_launcher"
-        android:src="@drawable/profile_icon_bg" />
+        android:src="@drawable/profile_icon_bg"
+        android:contentDescription="@string/profile_icon_desc" />
     
     
     <TextView
