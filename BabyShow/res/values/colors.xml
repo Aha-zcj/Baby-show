@@ -2,4 +2,5 @@
 <resources>
     <color name="actionbar_text">#0099cc</color>
     <color name="pressed_baby">#CC99CC00</color>
+    <color name="home_background">#ECECEC</color>
 </resources>

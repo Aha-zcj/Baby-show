@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:background="@color/home_background"
+    android:orientation="vertical" >
 
     <include layout="@layout/home_personal_info_component"/>
+    <include layout="@layout/home_talk_list_item"/>
     
-</RelativeLayout>
+</LinearLayout>

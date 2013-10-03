@@ -21,5 +21,7 @@
     <string name="toast_input_email">请输入账号</string>
     <string name="toast_input_password">请输入密码</string>
     <string name="http_do_login">http://www.qebaby.com/login/dologin</string>
+    <string name="like">赞</string>
+    <string name="comment">评论</string>
 
 </resources>

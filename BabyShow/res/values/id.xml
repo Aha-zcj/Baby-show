@@ -12,5 +12,9 @@
     <!-- baby项目使用 -->
     <item type="id" name="profile_icon_iv"/>
     <item type="id" name="baby_name_tv"/>
-    <item type="id" name="baby_age_tv"/>    
+    <item type="id" name="baby_age_tv"/>
+    <item type="id" name="like_btn" />
+    <item type="id" name="comment_btn" />
+    <item type="id" name="growth_time_tv" />
+    <item type="id" name="growth_content_tv" />    
 </resources>
