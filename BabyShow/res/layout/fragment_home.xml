@@ -5,7 +5,9 @@
     android:background="@color/home_background"
     android:orientation="vertical" >
 
-    <include layout="@layout/home_personal_info_component"/>
-    <include layout="@layout/home_talk_list_item"/>
+    <ListView 
+        android:id="@id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
     
 </LinearLayout>
